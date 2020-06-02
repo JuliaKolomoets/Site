@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header div section footer ul li h1 h2 h3 h4 p a{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+    url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    background-color: #24282f;
+    padding: 30px 0 0px 0;
+}
+.container_header{
+    max-width: 1100px;
+    margin: 0 auto;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+
+}
+.container_header .logo{
+    float: left;
+}
+.container_header nav{
+    float: right;
+}
+.container_header:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.navigation li{
+    display: inline-block;
+    margin-left: 50px;
+}
+.navigation li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Myriad Pro', sans-serif;
+}
+.navigation li a:hover:after{
+    width: 100%;
+}
+.navigation li a:after{
+    content: "";
+    display: block;
+    transition: 0.3s;
+    width: 0;
+    height: 2px;
+    background-color: #bbdb8c;
+    margin-top: 28px;
+}
+.about_us{
+    background-image: url("../images/bgfab.jpg") ;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0 80px 0;
+}
+.container_section{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.about_us h1{
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.about_us h1:hover{
+    color: greenyellow;
+}
+.about_us p{
+    font-size: 11px;
+    color: #ffffff;
+    max-width: 610px;
+    line-height: 18px;
+    font-family: 'Myriad Pro', sans-serif;
+}
+.managment{
+    text-align: center;
+    max-width: 890px;
+    margin: 0 auto;
+}
+.section_managment{
+    padding-top: 120px;
+}
+.section_managment h2 {
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #24282f;
+}
+.section_managment h2:after{
+    content: "";
+    display: block;
+    width: 61px;
+    height: 3px;
+    background-color: #b5a263;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.info{
+    max-width: 246px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+.info_name h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #232323;
+    font-family: 'Myriad Pro', sans-serif;
+}
+.info_name p{
+    font-size: 14px;
+    color: #b5a263;
+    font-family: 'Myriad Pro', sans-serif;
+}
+.social a i {
+    font-size: 14px;
+    color: white;
+}
+.social a{
+    text-decoration: none;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-color: #dedede;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+}
+.all_managers{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 27px;
+    padding-bottom: 33px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #7c7e82;
+    border-radius: 40px;
+    text-transform: uppercase;
+    color: #24282f;
+    font-size: 16px;
+    font-family: 'Myriad Pro', sans-serif;
+    padding: 12px 33px 12px 33px;
+    margin-bottom: 23px;
+}
+.btn:hover{
+    transform: scale(1.5);
+    transition: 0.2s;
+}
+
+.for_img{
+    max-width: 247px;
+}
+.for_img img{
+    width: 100%;
+}
+.section_clients{
+    background-color: #f7f7f7;
+    padding-top: 93px;
+    padding-bottom: 93px;
+}
+.clients{
+    max-width: 890px;
+    margin: 0 auto;
+}
+.clients h2{
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #24282f;
+    text-align: center;
+}
+.clients h2:after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 3px;
+    background-color: #24282f;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.clients img{
+    text-align: center;
+}
+blockquote{
+    margin-top: 50px;
+   text-align: center;
+}
+blockquote p:first-of-type{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Myriad Pro', sans-serif;
+}
+blockquote h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #b5a263;
+    font-family: 'Myriad Pro', sans-serif;
+}
+blockquote p:last-of-type{
+    font-size: 14px;
+    font-family: 'Myriad Pro', sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+}
+footer{
+    padding-top: 63px;
+    background-color: #2b2f35;
+}
+footer h3{
+    font-size: 14px;
+    color: #b5a263;
+    text-transform: uppercase;
+    font-family: 'Myriad Pro', sans-serif;
+    margin-bottom: 24px;
+}
+footer p{
+    font-size: 11px;
+    color: #6e7279;
+    font-family: 'Myriad Pro', sans-serif;
+    display: inline-block;
+}
+.pull-left{
+    float:left;
+    max-width: 242px;
+    margin-right: 140px ;
+}
+
+footer form{
+    float: right;
+    max-width: 246px;
+}
+footer form input{
+    width: 100%;
+    padding: 8px 68px 8px 8px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background-color: #2b2f35;
+    border: 1px solid #4a4e55;
+    box-sizing: border-box;
+}
+footer form button{
+    width:100%;
+    background-color: #b5a263;
+    font-size: 14px;
+    color: white;
+    font-family: 'Myriad Pro', sans-serif;
+    border: none;
+    padding: 8px 65px;
+}
+footer form button:hover{
+    cursor: pointer;
+}
+.footer_section{
+    max-width: 890px;
+    margin: 0 auto;
+}
+.footer_section:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.pull-left_2{
+    float: left;
+    max-width: 150px;
+}
+.respothem{
+    background-color: #24282f;
+    margin-top: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer_section .social{
+    float: right;
+}
+.footer_social a{
+    background-color: #24282f;
+    border: 1px solid #6e7279;
+}
+.footer_social a i{
+    color: #6e7279;
+}
+.footer_social a:hover{
+    background-color: #b5a263;
+    transform: rotate(360deg);
+    transition: 0.3s;
+}
+.footer_social a:hover i{
+    color: white;
+}
+
+
+
+

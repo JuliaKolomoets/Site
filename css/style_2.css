@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Regular.eot');
+    src: url('../fonts/RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RobotoSlab-Regular.woff2') format('woff2'),
+    url('../fonts/RobotoSlab-Regular.woff') format('woff'),
+    url('../fonts/RobotoSlab-Regular.ttf') format('truetype'),
+    url('../fonts/RobotoSlab-Regular.svg#RobotoSlab-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+p{
+    color: #cc2a28;
+}
+header nav li:after{
+    content: ">>";
+    display: inline-block;
+    text-decoration: none; color: white; font-size: 12px
+}
+header nav li:last-of-type:after{
+    display: none;
+}
+h1{
+    display: inline-block;
+    position: relative;
+    font-family: 'Roboto Slab';
+
+}
+h1:hover:after{
+    width: 100%;
+
+}
+h1:after{
+    content: "";
+    display:inline-block;
+    width: 0;
+    height: 2px;
+    background-color: #cc2a28;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+.btn{
+    display: inline-block;
+    line-height: 40px;
+    background-color: #cc2a28;
+    text-align: center;
+    min-width: 170px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.btn i{
+    margin-right: 13px;
+    font-size: 17px;
+}
